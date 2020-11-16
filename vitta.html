@@ -1,93 +1,72 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link href="css/style.css">
-    </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pirata(a nomear)</title>
+    <link href="css/style.css">
+  </head>
 
-    <body>
-        <div class="logo">
-            <img src="LOGO.jpg">
-        </div><!--logo-->
-
-        <div class="left">
-            <h1>SAÚDE MENTAL</br> ALIADA AO TRABALHO </br> EM REGIME HOME-OFFICE</br></h1>                
-
-            <p>
-                Acesse nosso kit de conteúdos exclusivos e dicas</br>  
-                valiosas sobre como manter o equilíbrio conciliando</br> 
-                vida pessoal e trabalho. É tudo gratuito!</br>              
-            </p>
-
-            <img src="E-BOOK.jpg">
-
-            <p>
-                Conteúdo dos E-books:</br>
-                Ansiedade;</br>
-                Síndrome do Impostor</br>
-                Equilíbrio entre vida pessoal e trabalho home-office;</br>
-                Jogo interativo Roda da Vida            
-            </p>       
-                       
-            </div><!--left-->
-        
-        <div class="form">
-            <label for"nome-e-sobrenome">Nome completo**</label>
-            <input type="text" id="nome-e-sobrenome" class="input-padrao" required placeholder="nome sobrenome">
-                    
-                    <label for "email">Email*</label>
-            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-                    
-                    <label for"empresa">Empresa*</label>
-            <input type="text" id="empresa" class="input-padrao" required placeholder="nome da empresa">
-                    
-                    <label for"cargo">Cargo*</label>
-            <input type="text" id="cargo" class="input-padrao" required placeholder="digite seu cargo">
-                    
-                    <label for "telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao" placeholder="(xx)xxxxx-xxxx">
-                    
-                    <label for"radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-        
-                    <label for "radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                    
-                    <label for "radio-whatssap"><input type="radio" name="contato"value= "whatssap"id="radio-whatssap" checked>Whatssap</label>
-                    
-                    <input type="submit" value="Receber material" class="enviar">
-                    
-                    <label class="checkbox"><input type="checkbox" checked> Ao enviar,você concorda em compartilhar suas informações conosco.Não vamos divulgar ou utilizar seu contato para enviar qualquer tipo de SPAM.</label>
-                    
-                    <label class="checkbox"><input type="checkbox" checked> Deseja receber mais conteúdo via e-mail?</label>
-                    
-                </div><!--form-->
-        </div><!--form-->
-
-        <html>
   <body>
-    <h1>Exemplo de formulário para o Show me the Leads</h1>
-    <form method="POST" action="URL do seu time">
-      <input
-        name="name"
-        type="text"
-        pattern="^\D{2,}\s[\D\s]{2,}$"
-        title="Digite seu nome completo"
-        required
-      />
-      <input
-        name="email"
-        type="email"
-        title="Digite um email válido"
-        required
-      />
-      <input name="redirectTo" type="hidden" value="https://gama.academy" />
-      <input name="debugMode" type="hidden" value="true" />
-      <input type="submit" />
-    </form>
+
+    <div class="logo">
+        <img src="LOGO.jpg">
+    </div><!--logo-->
+
+    <div class="left">
+      <h1>SAÚDE MENTAL</br> ALIADA AO TRABALHO </br> EM REGIME HOME-OFFICE</br></h1>                
+
+        <p>
+            Acesse nosso kit de conteúdos exclusivos e dicas</br>  
+            valiosas sobre como manter o equilíbrio conciliando</br> 
+            vida pessoal e trabalho. É tudo gratuito!</br>              
+        </p>
+
+        <img src="E-BOOK.jpg">
+
+        <p>
+            Conteúdo dos E-books:</br>
+            Ansiedade;</br>
+            Síndrome do Impostor</br>
+            Equilíbrio entre vida pessoal e trabalho home-office;</br>
+            Jogo interativo Roda da Vida            
+        </p>       
+                      
+    </div><!--left-->
+      
+    <form method="POST" action="https://smtl.gama.academy/leads/1ccc5851-25e3-11eb-bf8d-0d63c80760d2" class="form">
+        <label for"name">Nome completo*</label>
+        <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" id="name" class="input-padrao" required placeholder="nome sobrenome" title="Digite seu nome completo" ><br/>
+        
+        <label for "email">Email*</label>
+        <input name="email" type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"> <br/>
+        
+        <label for"empresa">Empresa*</label>
+        <input type="text" id="empresa" class="input-padrao" required placeholder="nome da empresa"><br/>
+        
+        <label for"cargo">Cargo*</label>
+        <input type="text" id="cargo" class="input-padrao" required placeholder="digite seu cargo"><br/>
+        
+        <label for "telefone">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" placeholder="(xx)xxxxx-xxxx"><br/>
+
+        <p>(*) Campos obrigatórios</p><br/>
+        
+        
+        <input type="submit" value="Receber material" class="enviar"><br/>
+        
+        <label class="checkbox">
+          <input type="checkbox"> Ao enviar,você concorda em compartilhar suas informações conosco.Não vamos divulgar ou utilizar seu contato para enviar qualquer tipo de SPAM.
+        </label><br/>
+        
+        <label class="checkbox">
+            <input type="checkbox" > Deseja receber mais contepudo via e-mail?
+        </label><br/>
+
+        <input name="redirectTo" type="hidden" value="https://gama.academy" >
+    </form><!--form-->
+      
   </body>
 </html>        
 
 
-
-    </body>
-
-</html>
